@@ -1,0 +1,1261 @@
+1. To compare two JSON have the same properties without order :
+
+Day04.js:11 age 5
+Day04.js:11 name Person 1
+
+2. To display all the flags using restcountries API : 
+
+Day04.js:30 Country Name:Afghanistan https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg
+Day04.js:30 Country Name:Åland Islands https://flagcdn.com/ax.svg
+Day04.js:30 Country Name:Albania https://flagcdn.com/al.svg
+Day04.js:30 Country Name:Algeria https://flagcdn.com/dz.svg
+​ Country Name:American Samoa https://flagcdn.com/as.svg
+​ Country Name:Andorra https://flagcdn.com/ad.svg
+​ Country Name:Angola https://flagcdn.com/ao.svg
+​ Country Name:Anguilla https://flagcdn.com/ai.svg
+​ Country Name:Antarctica https://flagcdn.com/aq.svg
+​ Country Name:Antigua and Barbuda https://flagcdn.com/ag.svg
+​ Country Name:Argentina https://flagcdn.com/ar.svg
+​ Country Name:Armenia https://flagcdn.com/am.svg
+​ Country Name:Aruba https://flagcdn.com/aw.svg
+​ Country Name:Australia https://flagcdn.com/au.svg
+​ Country Name:Austria https://flagcdn.com/at.svg
+​ Country Name:Azerbaijan https://flagcdn.com/az.svg
+​ Country Name:Bahamas https://flagcdn.com/bs.svg
+​ Country Name:Bahrain https://flagcdn.com/bh.svg
+​ Country Name:Bangladesh https://flagcdn.com/bd.svg
+​ Country Name:Barbados https://flagcdn.com/bb.svg
+​ Country Name:Belarus https://flagcdn.com/by.svg
+​ Country Name:Belgium https://flagcdn.com/be.svg
+​ Country Name:Belize https://flagcdn.com/bz.svg
+​ Country Name:Benin https://flagcdn.com/bj.svg
+​ Country Name:Bermuda https://flagcdn.com/bm.svg
+​ Country Name:Bhutan https://flagcdn.com/bt.svg
+​ Country Name:Bolivia (Plurinational State of) https://flagcdn.com/bo.svg
+​ Country Name:Bonaire, Sint Eustatius and Saba https://flagcdn.com/bq.svg
+​ Country Name:Bosnia and Herzegovina https://flagcdn.com/ba.svg
+​ Country Name:Botswana https://flagcdn.com/bw.svg
+​ Country Name:Bouvet Island https://flagcdn.com/bv.svg
+​ Country Name:Brazil https://flagcdn.com/br.svg
+​ Country Name:British Indian Ocean Territory https://flagcdn.com/io.svg
+​ Country Name:United States Minor Outlying Islands https://flagcdn.com/um.svg
+​ Country Name:Virgin Islands (British) https://flagcdn.com/vg.svg
+​ Country Name:Virgin Islands (U.S.) https://flagcdn.com/vi.svg
+​ Country Name:Brunei Darussalam https://flagcdn.com/bn.svg
+​ Country Name:Bulgaria https://flagcdn.com/bg.svg
+​ Country Name:Burkina Faso https://flagcdn.com/bf.svg
+​ Country Name:Burundi https://flagcdn.com/bi.svg
+​ Country Name:Cambodia https://flagcdn.com/kh.svg
+​ Country Name:Cameroon https://flagcdn.com/cm.svg
+​ Country Name:Canada https://flagcdn.com/ca.svg
+​ Country Name:Cabo Verde https://flagcdn.com/cv.svg
+​ Country Name:Cayman Islands https://flagcdn.com/ky.svg
+​ Country Name:Central African Republic https://flagcdn.com/cf.svg
+​ Country Name:Chad https://flagcdn.com/td.svg
+​ Country Name:Chile https://flagcdn.com/cl.svg
+​ Country Name:China https://flagcdn.com/cn.svg
+​ Country Name:Christmas Island https://flagcdn.com/cx.svg
+​ Country Name:Cocos (Keeling) Islands https://flagcdn.com/cc.svg
+​ Country Name:Colombia https://flagcdn.com/co.svg
+​ Country Name:Comoros https://flagcdn.com/km.svg
+​ Country Name:Congo https://flagcdn.com/cg.svg
+​ Country Name:Congo (Democratic Republic of the) https://flagcdn.com/cd.svg
+​ Country Name:Cook Islands https://flagcdn.com/ck.svg
+​ Country Name:Costa Rica https://flagcdn.com/cr.svg
+​ Country Name:Croatia https://flagcdn.com/hr.svg
+​ Country Name:Cuba https://flagcdn.com/cu.svg
+​ Country Name:Curaçao https://flagcdn.com/cw.svg
+​ Country Name:Cyprus https://flagcdn.com/cy.svg
+​ Country Name:Czech Republic https://flagcdn.com/cz.svg
+​ Country Name:Denmark https://flagcdn.com/dk.svg
+​ Country Name:Djibouti https://flagcdn.com/dj.svg
+​ Country Name:Dominica https://flagcdn.com/dm.svg
+​ Country Name:Dominican Republic https://flagcdn.com/do.svg
+​ Country Name:Ecuador https://flagcdn.com/ec.svg
+​ Country Name:Egypt https://flagcdn.com/eg.svg
+​ Country Name:El Salvador https://flagcdn.com/sv.svg
+​ Country Name:Equatorial Guinea https://flagcdn.com/gq.svg
+​ Country Name:Eritrea https://flagcdn.com/er.svg
+​ Country Name:Estonia https://flagcdn.com/ee.svg
+​ Country Name:Ethiopia https://flagcdn.com/et.svg
+​ Country Name:Falkland Islands (Malvinas) https://flagcdn.com/fk.svg
+​ Country Name:Faroe Islands https://flagcdn.com/fo.svg
+​ Country Name:Fiji https://flagcdn.com/fj.svg
+​ Country Name:Finland https://flagcdn.com/fi.svg
+​ Country Name:France https://flagcdn.com/fr.svg
+​ Country Name:French Guiana https://flagcdn.com/gf.svg
+​ Country Name:French Polynesia https://flagcdn.com/pf.svg
+​ Country Name:French Southern Territories https://flagcdn.com/tf.svg
+​ Country Name:Gabon https://flagcdn.com/ga.svg
+​ Country Name:Gambia https://flagcdn.com/gm.svg
+​ Country Name:Georgia https://flagcdn.com/ge.svg
+​ Country Name:Germany https://flagcdn.com/de.svg
+​ Country Name:Ghana https://flagcdn.com/gh.svg
+​ Country Name:Gibraltar https://flagcdn.com/gi.svg
+​ Country Name:Greece https://flagcdn.com/gr.svg
+​ Country Name:Greenland https://flagcdn.com/gl.svg
+​ Country Name:Grenada https://flagcdn.com/gd.svg
+​ Country Name:Guadeloupe https://flagcdn.com/gp.svg
+​ Country Name:Guam https://flagcdn.com/gu.svg
+​ Country Name:Guatemala https://flagcdn.com/gt.svg
+​ Country Name:Guernsey https://flagcdn.com/gg.svg
+​ Country Name:Guinea https://flagcdn.com/gn.svg
+​ Country Name:Guinea-Bissau https://flagcdn.com/gw.svg
+​ Country Name:Guyana https://flagcdn.com/gy.svg
+​ Country Name:Haiti https://flagcdn.com/ht.svg
+​ Country Name:Heard Island and McDonald Islands https://flagcdn.com/hm.svg
+​ Country Name:Vatican City https://flagcdn.com/va.svg
+​ Country Name:Honduras https://flagcdn.com/hn.svg
+​ Country Name:Hungary https://flagcdn.com/hu.svg
+​ Country Name:Hong Kong https://flagcdn.com/hk.svg
+​ Country Name:Iceland https://flagcdn.com/is.svg
+​ Country Name:India https://flagcdn.com/in.svg
+​ Country Name:Indonesia https://flagcdn.com/id.svg
+​ Country Name:Ivory Coast https://flagcdn.com/ci.svg
+​ Country Name:Iran (Islamic Republic of) https://flagcdn.com/ir.svg
+​ Country Name:Iraq https://flagcdn.com/iq.svg
+​ Country Name:Ireland https://flagcdn.com/ie.svg
+​ Country Name:Isle of Man https://flagcdn.com/im.svg
+​ Country Name:Israel https://flagcdn.com/il.svg
+​ Country Name:Italy https://flagcdn.com/it.svg
+​ Country Name:Jamaica https://flagcdn.com/jm.svg
+​ Country Name:Japan https://flagcdn.com/jp.svg
+​ Country Name:Jersey https://flagcdn.com/je.svg
+​ Country Name:Jordan https://flagcdn.com/jo.svg
+​ Country Name:Kazakhstan https://flagcdn.com/kz.svg
+​ Country Name:Kenya https://flagcdn.com/ke.svg
+​ Country Name:Kiribati https://flagcdn.com/ki.svg
+​ Country Name:Kuwait https://flagcdn.com/kw.svg
+​ Country Name:Kyrgyzstan https://flagcdn.com/kg.svg
+​ Country Name:Lao People's Democratic Republic https://flagcdn.com/la.svg
+​ Country Name:Latvia https://flagcdn.com/lv.svg
+​ Country Name:Lebanon https://flagcdn.com/lb.svg
+​ Country Name:Lesotho https://flagcdn.com/ls.svg
+​ Country Name:Liberia https://flagcdn.com/lr.svg
+​ Country Name:Libya https://flagcdn.com/ly.svg
+​ Country Name:Liechtenstein https://flagcdn.com/li.svg
+​ Country Name:Lithuania https://flagcdn.com/lt.svg
+​ Country Name:Luxembourg https://flagcdn.com/lu.svg
+​ Country Name:Macao https://flagcdn.com/mo.svg
+​ Country Name:North Macedonia https://flagcdn.com/mk.svg
+​ Country Name:Madagascar https://flagcdn.com/mg.svg
+​ Country Name:Malawi https://flagcdn.com/mw.svg
+​ Country Name:Malaysia https://flagcdn.com/my.svg
+​ Country Name:Maldives https://flagcdn.com/mv.svg
+​ Country Name:Mali https://flagcdn.com/ml.svg
+​ Country Name:Malta https://flagcdn.com/mt.svg
+​ Country Name:Marshall Islands https://flagcdn.com/mh.svg
+​ Country Name:Martinique https://flagcdn.com/mq.svg
+​ Country Name:Mauritania https://flagcdn.com/mr.svg
+​ Country Name:Mauritius https://flagcdn.com/mu.svg
+​ Country Name:Mayotte https://flagcdn.com/yt.svg
+​ Country Name:Mexico https://flagcdn.com/mx.svg
+​ Country Name:Micronesia (Federated States of) https://flagcdn.com/fm.svg
+​ Country Name:Moldova (Republic of) https://flagcdn.com/md.svg
+​ Country Name:Monaco https://flagcdn.com/mc.svg
+​ Country Name:Mongolia https://flagcdn.com/mn.svg
+​ Country Name:Montenegro https://flagcdn.com/me.svg
+​ Country Name:Montserrat https://flagcdn.com/ms.svg
+​ Country Name:Morocco https://flagcdn.com/ma.svg
+​ Country Name:Mozambique https://flagcdn.com/mz.svg
+​ Country Name:Myanmar https://flagcdn.com/mm.svg
+​ Country Name:Namibia https://flagcdn.com/na.svg
+​ Country Name:Nauru https://flagcdn.com/nr.svg
+​ Country Name:Nepal https://flagcdn.com/np.svg
+​ Country Name:Netherlands https://flagcdn.com/nl.svg
+​ Country Name:New Caledonia https://flagcdn.com/nc.svg
+​ Country Name:New Zealand https://flagcdn.com/nz.svg
+​ Country Name:Nicaragua https://flagcdn.com/ni.svg
+​ Country Name:Niger https://flagcdn.com/ne.svg
+​ Country Name:Nigeria https://flagcdn.com/ng.svg
+​ Country Name:Niue https://flagcdn.com/nu.svg
+​ Country Name:Norfolk Island https://flagcdn.com/nf.svg
+​ Country Name:Korea (Democratic People's Republic of) https://flagcdn.com/kp.svg
+​ Country Name:Northern Mariana Islands https://flagcdn.com/mp.svg
+​ Country Name:Norway https://flagcdn.com/no.svg
+​ Country Name:Oman https://flagcdn.com/om.svg
+​ Country Name:Pakistan https://flagcdn.com/pk.svg
+​ Country Name:Palau https://flagcdn.com/pw.svg
+​ Country Name:Palestine, State of https://flagcdn.com/ps.svg
+​ Country Name:Panama https://flagcdn.com/pa.svg
+​ Country Name:Papua New Guinea https://flagcdn.com/pg.svg
+​ Country Name:Paraguay https://flagcdn.com/py.svg
+​ Country Name:Peru https://flagcdn.com/pe.svg
+​ Country Name:Philippines https://flagcdn.com/ph.svg
+​ Country Name:Pitcairn https://flagcdn.com/pn.svg
+​ Country Name:Poland https://flagcdn.com/pl.svg
+​ Country Name:Portugal https://flagcdn.com/pt.svg
+​ Country Name:Puerto Rico https://flagcdn.com/pr.svg
+​ Country Name:Qatar https://flagcdn.com/qa.svg
+​ Country Name:Republic of Kosovo https://flagcdn.com/xk.svg
+​ Country Name:Réunion https://flagcdn.com/re.svg
+​ Country Name:Romania https://flagcdn.com/ro.svg
+​ Country Name:Russian Federation https://flagcdn.com/ru.svg
+​ Country Name:Rwanda https://flagcdn.com/rw.svg
+​ Country Name:Saint Barthélemy https://flagcdn.com/bl.svg
+​ Country Name:Saint Helena, Ascension and Tristan da Cunha https://flagcdn.com/sh.svg
+​ Country Name:Saint Kitts and Nevis https://flagcdn.com/kn.svg
+​ Country Name:Saint Lucia https://flagcdn.com/lc.svg
+​ Country Name:Saint Martin (French part) https://flagcdn.com/mf.svg
+​ Country Name:Saint Pierre and Miquelon https://flagcdn.com/pm.svg
+​ Country Name:Saint Vincent and the Grenadines https://flagcdn.com/vc.svg
+​ Country Name:Samoa https://flagcdn.com/ws.svg
+​ Country Name:San Marino https://flagcdn.com/sm.svg
+​ Country Name:Sao Tome and Principe https://flagcdn.com/st.svg
+​ Country Name:Saudi Arabia https://flagcdn.com/sa.svg
+​ Country Name:Senegal https://flagcdn.com/sn.svg
+​ Country Name:Serbia https://flagcdn.com/rs.svg
+​ Country Name:Seychelles https://flagcdn.com/sc.svg
+​ Country Name:Sierra Leone https://flagcdn.com/sl.svg
+​ Country Name:Singapore https://flagcdn.com/sg.svg
+​ Country Name:Sint Maarten (Dutch part) https://flagcdn.com/sx.svg
+​ Country Name:Slovakia https://flagcdn.com/sk.svg
+​ Country Name:Slovenia https://flagcdn.com/si.svg
+​ Country Name:Solomon Islands https://flagcdn.com/sb.svg
+​ Country Name:Somalia https://flagcdn.com/so.svg
+​ Country Name:South Africa https://flagcdn.com/za.svg
+​ Country Name:South Georgia and the South Sandwich Islands https://flagcdn.com/gs.svg
+​ Country Name:Korea (Republic of) https://flagcdn.com/kr.svg
+​ Country Name:Spain https://flagcdn.com/es.svg
+​ Country Name:Sri Lanka https://flagcdn.com/lk.svg
+​ Country Name:Sudan https://flagcdn.com/sd.svg
+​ Country Name:South Sudan https://flagcdn.com/ss.svg
+​ Country Name:Suriname https://flagcdn.com/sr.svg
+​ Country Name:Svalbard and Jan Mayen https://flagcdn.com/sj.svg
+​ Country Name:Swaziland https://flagcdn.com/sz.svg
+​ Country Name:Sweden https://flagcdn.com/se.svg
+​ Country Name:Switzerland https://flagcdn.com/ch.svg
+​ Country Name:Syrian Arab Republic https://flagcdn.com/sy.svg
+​ Country Name:Taiwan https://flagcdn.com/tw.svg
+​ Country Name:Tajikistan https://flagcdn.com/tj.svg
+​ Country Name:Tanzania, United Republic of https://flagcdn.com/tz.svg
+​ Country Name:Thailand https://flagcdn.com/th.svg
+​ Country Name:Timor-Leste https://flagcdn.com/tl.svg
+​ Country Name:Togo https://flagcdn.com/tg.svg
+​ Country Name:Tokelau https://flagcdn.com/tk.svg
+​ Country Name:Tonga https://flagcdn.com/to.svg
+​ Country Name:Trinidad and Tobago https://flagcdn.com/tt.svg
+​ Country Name:Tunisia https://flagcdn.com/tn.svg
+​ Country Name:Turkey https://flagcdn.com/tr.svg
+​ Country Name:Turkmenistan https://flagcdn.com/tm.svg
+​ Country Name:Turks and Caicos Islands https://flagcdn.com/tc.svg
+​ Country Name:Tuvalu https://flagcdn.com/tv.svg
+​ Country Name:Uganda https://flagcdn.com/ug.svg
+​ Country Name:Ukraine https://flagcdn.com/ua.svg
+​ Country Name:United Arab Emirates https://flagcdn.com/ae.svg
+​ Country Name:United Kingdom of Great Britain and Northern Ireland https://flagcdn.com/gb.svg
+​ Country Name:United States of America https://flagcdn.com/us.svg
+​ Country Name:Uruguay https://flagcdn.com/uy.svg
+​ Country Name:Uzbekistan https://flagcdn.com/uz.svg
+​ Country Name:Vanuatu https://flagcdn.com/vu.svg
+​ Country Name:Venezuela (Bolivarian Republic of) https://flagcdn.com/ve.svg
+​ Country Name:Vietnam https://flagcdn.com/vn.svg
+​ Country Name:Wallis and Futuna https://flagcdn.com/wf.svg
+​ Country Name:Western Sahara https://flagcdn.com/eh.svg
+​ Country Name:Yemen https://flagcdn.com/ye.svg
+​ Country Name:Zambia https://flagcdn.com/zm.svg
+​ Country Name:Zimbabwe https://flagcdn.com/zw.svg
+
+
+3. To display all the Countries, Regions, Sub Regions and Population using restcountries API :
+
+​ Country Name:Afghanistan
+​ Region:Asia
+​ Sub-region:Southern Asia
+​ Population:40218234
+​ Country Name:Åland Islands
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:28875
+​ Country Name:Albania
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:2837743
+​ Country Name:Algeria
+​ Region:Africa
+​ Sub-region:Northern Africa
+​ Population:44700000
+​ Country Name:American Samoa
+​ Region:Oceania
+​ Sub-region:Polynesia
+​ Population:55197
+​ Country Name:Andorra
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:77265
+​ Country Name:Angola
+​ Region:Africa
+​ Sub-region:Middle Africa
+​ Population:32866268
+​ Country Name:Anguilla
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:13452
+​ Country Name:Antarctica
+​ Region:Polar
+​ Sub-region:Antarctica
+​ Population:1000
+​ Country Name:Antigua and Barbuda
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:97928
+​ Country Name:Argentina
+​ Region:Americas
+​ Sub-region:South America
+​ Population:45376763
+​ Country Name:Armenia
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:2963234
+​ Country Name:Aruba
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:106766
+​ Country Name:Australia
+​ Region:Oceania
+​ Sub-region:Australia and New Zealand
+​ Population:25687041
+​ Country Name:Austria
+​ Region:Europe
+​ Sub-region:Central Europe
+​ Population:8917205
+​ Country Name:Azerbaijan
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:10110116
+​ Country Name:Bahamas
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:393248
+​ Country Name:Bahrain
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:1701583
+​ Country Name:Bangladesh
+​ Region:Asia
+​ Sub-region:Southern Asia
+​ Population:164689383
+​ Country Name:Barbados
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:287371
+​ Country Name:Belarus
+​ Region:Europe
+​ Sub-region:Eastern Europe
+​ Population:9398861
+​ Country Name:Belgium
+​ Region:Europe
+​ Sub-region:Western Europe
+​ Population:11555997
+​ Country Name:Belize
+​ Region:Americas
+​ Sub-region:Central America
+​ Population:397621
+​ Country Name:Benin
+​ Region:Africa
+​ Sub-region:Western Africa
+​ Population:12123198
+​ Country Name:Bermuda
+​ Region:Americas
+​ Sub-region:Northern America
+​ Population:63903
+​ Country Name:Bhutan
+​ Region:Asia
+​ Sub-region:Southern Asia
+​ Population:771612
+​ Country Name:Bolivia (Plurinational State of)
+​ Region:Americas
+​ Sub-region:South America
+​ Population:11673029
+​ Country Name:Bonaire, Sint Eustatius and Saba
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:17408
+​ Country Name:Bosnia and Herzegovina
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:3280815
+​ Country Name:Botswana
+​ Region:Africa
+​ Sub-region:Southern Africa
+​ Population:2351625
+​ Country Name:Bouvet Island
+​ Region:Antarctic Ocean
+​ Sub-region:South Antarctic Ocean
+​ Population:0
+​ Country Name:Brazil
+​ Region:Americas
+​ Sub-region:South America
+​ Population:212559409
+​ Country Name:British Indian Ocean Territory
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:3000
+​ Country Name:United States Minor Outlying Islands
+​ Region:Americas
+​ Sub-region:Northern America
+​ Population:300
+​ Country Name:Virgin Islands (British)
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:30237
+​ Country Name:Virgin Islands (U.S.)
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:106290
+​ Country Name:Brunei Darussalam
+​ Region:Asia
+​ Sub-region:South-Eastern Asia
+​ Population:437483
+​ Country Name:Bulgaria
+​ Region:Europe
+​ Sub-region:Eastern Europe
+​ Population:6927288
+​ Country Name:Burkina Faso
+​ Region:Africa
+​ Sub-region:Western Africa
+​ Population:20903278
+​ Country Name:Burundi
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:11890781
+​ Country Name:Cambodia
+​ Region:Asia
+​ Sub-region:South-Eastern Asia
+​ Population:16718971
+​ Country Name:Cameroon
+​ Region:Africa
+​ Sub-region:Middle Africa
+​ Population:26545864
+​ Country Name:Canada
+​ Region:Americas
+​ Sub-region:Northern America
+​ Population:38005238
+​ Country Name:Cabo Verde
+​ Region:Africa
+​ Sub-region:Western Africa
+​ Population:555988
+​ Country Name:Cayman Islands
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:65720
+​ Country Name:Central African Republic
+​ Region:Africa
+​ Sub-region:Middle Africa
+​ Population:4829764
+​ Country Name:Chad
+​ Region:Africa
+​ Sub-region:Middle Africa
+​ Population:16425859
+​ Country Name:Chile
+​ Region:Americas
+​ Sub-region:South America
+​ Population:19116209
+​ Country Name:China
+​ Region:Asia
+​ Sub-region:Eastern Asia
+​ Population:1402112000
+​ Country Name:Christmas Island
+​ Region:Oceania
+​ Sub-region:Australia and New Zealand
+​ Population:2072
+​ Country Name:Cocos (Keeling) Islands
+​ Region:Oceania
+​ Sub-region:Australia and New Zealand
+​ Population:550
+​ Country Name:Colombia
+​ Region:Americas
+​ Sub-region:South America
+​ Population:50882884
+​ Country Name:Comoros
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:869595
+​ Country Name:Congo
+​ Region:Africa
+​ Sub-region:Middle Africa
+​ Population:5518092
+​ Country Name:Congo (Democratic Republic of the)
+​ Region:Africa
+​ Sub-region:Middle Africa
+​ Population:89561404
+​ Country Name:Cook Islands
+​ Region:Oceania
+​ Sub-region:Polynesia
+​ Population:18100
+​ Country Name:Costa Rica
+​ Region:Americas
+​ Sub-region:Central America
+​ Population:5094114
+​ Country Name:Croatia
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:4047200
+​ Country Name:Cuba
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:11326616
+​ Country Name:Curaçao
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:155014
+​ Country Name:Cyprus
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:1207361
+​ Country Name:Czech Republic
+​ Region:Europe
+​ Sub-region:Central Europe
+​ Population:10698896
+​ Country Name:Denmark
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:5831404
+​ Country Name:Djibouti
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:988002
+​ Country Name:Dominica
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:71991
+​ Country Name:Dominican Republic
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:10847904
+​ Country Name:Ecuador
+​ Region:Americas
+​ Sub-region:South America
+​ Population:17643060
+​ Country Name:Egypt
+​ Region:Africa
+​ Sub-region:Northern Africa
+​ Population:102334403
+​ Country Name:El Salvador
+​ Region:Americas
+​ Sub-region:Central America
+​ Population:6486201
+​ Country Name:Equatorial Guinea
+​ Region:Africa
+​ Sub-region:Middle Africa
+​ Population:1402985
+​ Country Name:Eritrea
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:5352000
+​ Country Name:Estonia
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:1331057
+​ Country Name:Ethiopia
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:114963583
+​ Country Name:Falkland Islands (Malvinas)
+​ Region:Americas
+​ Sub-region:South America
+​ Population:2563
+​ Country Name:Faroe Islands
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:48865
+​ Country Name:Fiji
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Melanesia
+Day04.js:40 Population:896444
+Day04.js:37 Country Name:Finland
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Northern Europe
+Day04.js:40 Population:5530719
+Day04.js:37 Country Name:France
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Western Europe
+Day04.js:40 Population:67391582
+Day04.js:37 Country Name:French Guiana
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:254541
+Day04.js:37 Country Name:French Polynesia
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:280904
+Day04.js:37 Country Name:French Southern Territories
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Southern Africa
+Day04.js:40 Population:140
+Day04.js:37 Country Name:Gabon
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Middle Africa
+Day04.js:40 Population:2225728
+Day04.js:37 Country Name:Gambia
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:2416664
+Day04.js:37 Country Name:Georgia
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:3714000
+Day04.js:37 Country Name:Germany
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Central Europe
+Day04.js:40 Population:83240525
+Day04.js:37 Country Name:Ghana
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:31072945
+Day04.js:37 Country Name:Gibraltar
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:33691
+Day04.js:37 Country Name:Greece
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:10715549
+Day04.js:37 Country Name:Greenland
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Northern America
+Day04.js:40 Population:56367
+Day04.js:37 Country Name:Grenada
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:112519
+Day04.js:37 Country Name:Guadeloupe
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:400132
+Day04.js:37 Country Name:Guam
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Micronesia
+Day04.js:40 Population:168783
+Day04.js:37 Country Name:Guatemala
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Central America
+Day04.js:40 Population:16858333
+Day04.js:37 Country Name:Guernsey
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Northern Europe
+Day04.js:40 Population:62999
+Day04.js:37 Country Name:Guinea
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:13132792
+Day04.js:37 Country Name:Guinea-Bissau
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:1967998
+Day04.js:37 Country Name:Guyana
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:786559
+Day04.js:37 Country Name:Haiti
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:11402533
+Day04.js:37 Country Name:Heard Island and McDonald Islands
+Day04.js:38 Region:Antarctic
+Day04.js:39 Sub-region:Antarctic
+Day04.js:40 Population:0
+Day04.js:37 Country Name:Vatican City
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:451
+Day04.js:37 Country Name:Honduras
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Central America
+Day04.js:40 Population:9904608
+Day04.js:37 Country Name:Hungary
+​ Region:Europe
+​ Sub-region:Central Europe
+​ Population:9749763
+​ Country Name:Hong Kong
+​ Region:Asia
+​ Sub-region:Eastern Asia
+​ Population:7481800
+​ Country Name:Iceland
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:366425
+​ Country Name:India
+​ Region:Asia
+​ Sub-region:Southern Asia
+​ Population:1380004385
+​ Country Name:Indonesia
+​ Region:Asia
+​ Sub-region:South-Eastern Asia
+​ Population:273523621
+​ Country Name:Ivory Coast
+​ Region:Africa
+​ Sub-region:Western Africa
+​ Population:26378275
+​ Country Name:Iran (Islamic Republic of)
+​ Region:Asia
+​ Sub-region:Southern Asia
+​ Population:83992953
+​ Country Name:Iraq
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:40222503
+​ Country Name:Ireland
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:4994724
+​ Country Name:Isle of Man
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:85032
+​ Country Name:Israel
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:9216900
+​ Country Name:Italy
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:59554023
+​ Country Name:Jamaica
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:2961161
+​ Country Name:Japan
+​ Region:Asia
+​ Sub-region:Eastern Asia
+​ Population:125836021
+​ Country Name:Jersey
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:100800
+​ Country Name:Jordan
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:10203140
+​ Country Name:Kazakhstan
+​ Region:Asia
+​ Sub-region:Central Asia
+​ Population:18754440
+​ Country Name:Kenya
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:53771300
+​ Country Name:Kiribati
+​ Region:Oceania
+​ Sub-region:Micronesia
+​ Population:119446
+​ Country Name:Kuwait
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:4270563
+​ Country Name:Kyrgyzstan
+​ Region:Asia
+​ Sub-region:Central Asia
+​ Population:6591600
+​ Country Name:Lao People's Democratic Republic
+​ Region:Asia
+​ Sub-region:South-Eastern Asia
+​ Population:7275556
+​ Country Name:Latvia
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:1901548
+​ Country Name:Lebanon
+​ Region:Asia
+​ Sub-region:Western Asia
+​ Population:6825442
+​ Country Name:Lesotho
+​ Region:Africa
+​ Sub-region:Southern Africa
+​ Population:2142252
+​ Country Name:Liberia
+​ Region:Africa
+​ Sub-region:Western Africa
+​ Population:5057677
+​ Country Name:Libya
+​ Region:Africa
+​ Sub-region:Northern Africa
+​ Population:6871287
+​ Country Name:Liechtenstein
+​ Region:Europe
+​ Sub-region:Central Europe
+​ Population:38137
+​ Country Name:Lithuania
+​ Region:Europe
+​ Sub-region:Northern Europe
+​ Population:2794700
+​ Country Name:Luxembourg
+​ Region:Europe
+​ Sub-region:Western Europe
+​ Population:632275
+​ Country Name:Macao
+​ Region:Asia
+​ Sub-region:Eastern Asia
+​ Population:649342
+​ Country Name:North Macedonia
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:2083380
+​ Country Name:Madagascar
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:27691019
+​ Country Name:Malawi
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:19129955
+​ Country Name:Malaysia
+​ Region:Asia
+​ Sub-region:South-Eastern Asia
+​ Population:32365998
+​ Country Name:Maldives
+​ Region:Asia
+​ Sub-region:Southern Asia
+​ Population:540542
+​ Country Name:Mali
+​ Region:Africa
+​ Sub-region:Western Africa
+​ Population:20250834
+​ Country Name:Malta
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:525285
+​ Country Name:Marshall Islands
+​ Region:Oceania
+​ Sub-region:Micronesia
+​ Population:59194
+​ Country Name:Martinique
+​ Region:Americas
+​ Sub-region:Caribbean
+​ Population:378243
+​ Country Name:Mauritania
+​ Region:Africa
+​ Sub-region:Western Africa
+​ Population:4649660
+​ Country Name:Mauritius
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:1265740
+​ Country Name:Mayotte
+​ Region:Africa
+​ Sub-region:Eastern Africa
+​ Population:226915
+​ Country Name:Mexico
+​ Region:Americas
+​ Sub-region:North America
+​ Population:128932753
+​ Country Name:Micronesia (Federated States of)
+​ Region:Oceania
+​ Sub-region:Micronesia
+​ Population:115021
+​ Country Name:Moldova (Republic of)
+​ Region:Europe
+​ Sub-region:Eastern Europe
+​ Population:2617820
+​ Country Name:Monaco
+​ Region:Europe
+​ Sub-region:Western Europe
+​ Population:39244
+​ Country Name:Mongolia
+​ Region:Asia
+​ Sub-region:Eastern Asia
+​ Population:3278292
+​ Country Name:Montenegro
+​ Region:Europe
+​ Sub-region:Southern Europe
+​ Population:621718
+​ Country Name:Montserrat
+​ Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:4922
+Day04.js:37 Country Name:Morocco
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Northern Africa
+Day04.js:40 Population:36910558
+Day04.js:37 Country Name:Mozambique
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:31255435
+Day04.js:37 Country Name:Myanmar
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:South-Eastern Asia
+Day04.js:40 Population:54409794
+Day04.js:37 Country Name:Namibia
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Southern Africa
+Day04.js:40 Population:2540916
+Day04.js:37 Country Name:Nauru
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Micronesia
+Day04.js:40 Population:10834
+Day04.js:37 Country Name:Nepal
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Southern Asia
+Day04.js:40 Population:29136808
+Day04.js:37 Country Name:Netherlands
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Western Europe
+Day04.js:40 Population:17441139
+Day04.js:37 Country Name:New Caledonia
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Melanesia
+Day04.js:40 Population:271960
+Day04.js:37 Country Name:New Zealand
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Australia and New Zealand
+Day04.js:40 Population:5084300
+Day04.js:37 Country Name:Nicaragua
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Central America
+Day04.js:40 Population:6624554
+Day04.js:37 Country Name:Niger
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:24206636
+Day04.js:37 Country Name:Nigeria
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:206139587
+Day04.js:37 Country Name:Niue
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:1470
+Day04.js:37 Country Name:Norfolk Island
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Australia and New Zealand
+Day04.js:40 Population:2302
+Day04.js:37 Country Name:Korea (Democratic People's Republic of)
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Eastern Asia
+Day04.js:40 Population:25778815
+Day04.js:37 Country Name:Northern Mariana Islands
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Micronesia
+Day04.js:40 Population:57557
+Day04.js:37 Country Name:Norway
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Northern Europe
+Day04.js:40 Population:5379475
+Day04.js:37 Country Name:Oman
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:5106622
+Day04.js:37 Country Name:Pakistan
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Southern Asia
+Day04.js:40 Population:220892331
+Day04.js:37 Country Name:Palau
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Micronesia
+Day04.js:40 Population:18092
+Day04.js:37 Country Name:Palestine, State of
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:4803269
+Day04.js:37 Country Name:Panama
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Central America
+Day04.js:40 Population:4314768
+Day04.js:37 Country Name:Papua New Guinea
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Melanesia
+Day04.js:40 Population:8947027
+Day04.js:37 Country Name:Paraguay
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:7132530
+Day04.js:37 Country Name:Peru
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:32971846
+Day04.js:37 Country Name:Philippines
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:South-Eastern Asia
+Day04.js:40 Population:109581085
+Day04.js:37 Country Name:Pitcairn
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:56
+Day04.js:37 Country Name:Poland
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Central Europe
+Day04.js:40 Population:37950802
+Day04.js:37 Country Name:Portugal
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:10305564
+Day04.js:37 Country Name:Puerto Rico
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:3194034
+Day04.js:37 Country Name:Qatar
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:2881060
+Day04.js:37 Country Name:Republic of Kosovo
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Eastern Europe
+Day04.js:40 Population:1775378
+Day04.js:37 Country Name:Réunion
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:840974
+Day04.js:37 Country Name:Romania
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Eastern Europe
+Day04.js:40 Population:19286123
+Day04.js:37 Country Name:Russian Federation
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Eastern Europe
+Day04.js:40 Population:144104080
+Day04.js:37 Country Name:Rwanda
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:12952209
+Day04.js:37 Country Name:Saint Barthélemy
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:9417
+Day04.js:37 Country Name:Saint Helena, Ascension and Tristan da Cunha
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:4255
+Day04.js:37 Country Name:Saint Kitts and Nevis
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:53192
+Day04.js:37 Country Name:Saint Lucia
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:183629
+Day04.js:37 Country Name:Saint Martin (French part)
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:38659
+Day04.js:37 Country Name:Saint Pierre and Miquelon
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Northern America
+Day04.js:40 Population:6069
+Day04.js:37 Country Name:Saint Vincent and the Grenadines
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:110947
+Day04.js:37 Country Name:Samoa
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:198410
+Day04.js:37 Country Name:San Marino
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:33938
+Day04.js:37 Country Name:Sao Tome and Principe
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Middle Africa
+Day04.js:40 Population:219161
+Day04.js:37 Country Name:Saudi Arabia
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:34813867
+Day04.js:37 Country Name:Senegal
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:16743930
+Day04.js:37 Country Name:Serbia
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:6908224
+Day04.js:37 Country Name:Seychelles
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:98462
+Day04.js:37 Country Name:Sierra Leone
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:7976985
+Day04.js:37 Country Name:Singapore
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:South-Eastern Asia
+Day04.js:40 Population:5685807
+Day04.js:37 Country Name:Sint Maarten (Dutch part)
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:40812
+Day04.js:37 Country Name:Slovakia
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Central Europe
+Day04.js:40 Population:5458827
+Day04.js:37 Country Name:Slovenia
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:2100126
+Day04.js:37 Country Name:Solomon Islands
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Melanesia
+Day04.js:40 Population:686878
+Day04.js:37 Country Name:Somalia
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:15893219
+Day04.js:37 Country Name:South Africa
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Southern Africa
+Day04.js:40 Population:59308690
+Day04.js:37 Country Name:South Georgia and the South Sandwich Islands
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:30
+Day04.js:37 Country Name:Korea (Republic of)
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Eastern Asia
+Day04.js:40 Population:51780579
+Day04.js:37 Country Name:Spain
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Southern Europe
+Day04.js:40 Population:47351567
+Day04.js:37 Country Name:Sri Lanka
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Southern Asia
+Day04.js:40 Population:21919000
+Day04.js:37 Country Name:Sudan
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Northern Africa
+Day04.js:40 Population:43849269
+Day04.js:37 Country Name:South Sudan
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Middle Africa
+Day04.js:40 Population:11193729
+Day04.js:37 Country Name:Suriname
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:586634
+Day04.js:37 Country Name:Svalbard and Jan Mayen
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Northern Europe
+Day04.js:40 Population:2562
+Day04.js:37 Country Name:Swaziland
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Southern Africa
+Day04.js:40 Population:1160164
+Day04.js:37 Country Name:Sweden
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Northern Europe
+Day04.js:40 Population:10353442
+Day04.js:37 Country Name:Switzerland
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Central Europe
+Day04.js:40 Population:8636896
+Day04.js:37 Country Name:Syrian Arab Republic
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:17500657
+Day04.js:37 Country Name:Taiwan
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Eastern Asia
+Day04.js:40 Population:23503349
+Day04.js:37 Country Name:Tajikistan
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Central Asia
+Day04.js:40 Population:9537642
+Day04.js:37 Country Name:Tanzania, United Republic of
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:59734213
+Day04.js:37 Country Name:Thailand
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:South-Eastern Asia
+Day04.js:40 Population:69799978
+Day04.js:37 Country Name:Timor-Leste
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:South-Eastern Asia
+Day04.js:40 Population:1318442
+Day04.js:37 Country Name:Togo
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Western Africa
+Day04.js:40 Population:8278737
+Day04.js:37 Country Name:Tokelau
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:1411
+Day04.js:37 Country Name:Tonga
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:105697
+Day04.js:37 Country Name:Trinidad and Tobago
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:1399491
+Day04.js:37 Country Name:Tunisia
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Northern Africa
+Day04.js:40 Population:11818618
+Day04.js:37 Country Name:Turkey
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:84339067
+Day04.js:37 Country Name:Turkmenistan
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Central Asia
+Day04.js:40 Population:6031187
+Day04.js:37 Country Name:Turks and Caicos Islands
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Caribbean
+Day04.js:40 Population:38718
+Day04.js:37 Country Name:Tuvalu
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:11792
+Day04.js:37 Country Name:Uganda
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:45741000
+Day04.js:37 Country Name:Ukraine
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Eastern Europe
+Day04.js:40 Population:44134693
+Day04.js:37 Country Name:United Arab Emirates
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:9890400
+Day04.js:37 Country Name:United Kingdom of Great Britain and Northern Ireland
+Day04.js:38 Region:Europe
+Day04.js:39 Sub-region:Northern Europe
+Day04.js:40 Population:67215293
+Day04.js:37 Country Name:United States of America
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:Northern America
+Day04.js:40 Population:329484123
+Day04.js:37 Country Name:Uruguay
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:3473727
+Day04.js:37 Country Name:Uzbekistan
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Central Asia
+Day04.js:40 Population:34232050
+Day04.js:37 Country Name:Vanuatu
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Melanesia
+Day04.js:40 Population:307150
+Day04.js:37 Country Name:Venezuela (Bolivarian Republic of)
+Day04.js:38 Region:Americas
+Day04.js:39 Sub-region:South America
+Day04.js:40 Population:28435943
+Day04.js:37 Country Name:Vietnam
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:South-Eastern Asia
+Day04.js:40 Population:97338583
+Day04.js:37 Country Name:Wallis and Futuna
+Day04.js:38 Region:Oceania
+Day04.js:39 Sub-region:Polynesia
+Day04.js:40 Population:11750
+Day04.js:37 Country Name:Western Sahara
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Northern Africa
+Day04.js:40 Population:510713
+Day04.js:37 Country Name:Yemen
+Day04.js:38 Region:Asia
+Day04.js:39 Sub-region:Western Asia
+Day04.js:40 Population:29825968
+Day04.js:37 Country Name:Zambia
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Eastern Africa
+Day04.js:40 Population:18383956
+Day04.js:37 Country Name:Zimbabwe
+Day04.js:38 Region:Africa
+Day04.js:39 Sub-region:Southern Africa
+Day04.js:40 Population:14862927
